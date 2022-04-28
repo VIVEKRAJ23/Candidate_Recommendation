@@ -1,0 +1,11 @@
+5+ year experience with C++, 
+Experience in C++ development and maintenance  
+Excellent analytical and debugging skills  
+GDB JIRA GIT GCC toolchain      
+Strong object oriented development skills   
+Use of design patterns and well versed with UML design notations        
+Unit test frameworks like Gmock and Gtest     
+Experience with Agile way of working    
+Good communication skills    
+Development experience in windows and Linux environments                             
+Should be able to understand the UI wireframes and use standard practices to develop UI  

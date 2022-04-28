@@ -1,0 +1,13 @@
+pip==21.3.1
+nltk==3.4.5
+gunicorn==19.9.0
+spacy==2.2.3
+textract
+requests==2.24.0
+flask==1.1.2
+textract==1.6.3
+pdfminer.six==20181108
+Jinja2==2.10.3
+Werkzeug==0.16.0
+itsdangerous==1.1.0
+MarkupSafe==1.1.1

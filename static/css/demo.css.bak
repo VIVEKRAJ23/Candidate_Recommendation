@@ -1,0 +1,235 @@
+/* body {
+    background-image: url("./static/geometry2.jpg")
+} */
+#top {
+  max-width: 1440px;
+}
+.demo .row .col {
+  background-color: #eee;
+}
+.demo .row .col:nth-child(even) {
+  background-color: #ddd;
+}
+.docs {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.summary a {
+  color: #41403e;
+}
+img.no-responsive {
+  max-width: -webkit-fill-available;
+  max-width: -moz-available;
+}
+.to-top {
+  opacity: 1;
+  display: inline-block;
+  padding: 1em;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+}
+.to-top .paper-btn {
+  padding: 0.6em 1em;
+  background: white;
+  color: #0095ff;
+  border-top-left-radius: 185px 160px;
+  border-top-right-radius: 200px 195px;
+  border-bottom-right-radius: 160px 195px;
+  border-bottom-left-radius: 185px 190px;
+}
+.demo-title:hover + .to-top {
+  opacity: 0;
+}
+
+.demo-title {
+  color: white;
+  padding-left: 20px;
+  background-color: #0095ff;
+  border-bottom: 3px solid rgb(200, 229, 250);
+}
+.sidebar-title {
+  color: white;
+  padding-left: 20px;
+  font-family: Arial;
+  background-color: #0095ff;
+  border-bottom: 3px solid rgb(200, 229, 250);
+  margin-top: 0px;
+  height: 65px;
+  padding-top: 10px;
+}
+.collapsible.full-width {
+  width: 100%;
+}
+
+.upload-class {
+  float: left;
+}
+
+.upload-button {
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  box-shadow: rgb(255 255 255 / 40%) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans",
+    sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.15385;
+  outline: none;
+  padding: 8px 0.8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.screen-button {
+  margin-right: 31%;
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgb(255 255 255 / 40%) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans",
+    sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px 0.8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.select-jd {
+  color: rgb(165, 165, 165);
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+  display: block;
+  width: 307px;
+  background-color: #dbdbdb;
+}
+
+.job-desc-class {
+  float: left;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-button {
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  box-shadow: rgb(255 255 255 / 40%) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans",
+    sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px 0.8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+.column-button {
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  box-shadow: rgb(255 255 255 / 40%) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans",
+    sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px 0.8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+.dropZoneOverlay,
+.FileUpload {
+  width: 283px;
+  height: 71px;
+}
+
+.dropZoneOverlay {
+  border: dotted 1px;
+  font-family: cursive;
+  color: #7066fb;
+  position: absolute;
+  top: 0px;
+  text-align: center;
+}
+
+.FileUpload {
+  opacity: 0;
+  position: relative;
+  z-index: 1;
+}
+.label-check{
+  color: rgb(165, 165, 165);
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+  display: block;
+  width: 307px;
+  background-color: #dbdbdb;
+  margin-top: 10px;
+  margin-bottom: 10px;
+     }
+
+
+
+input[type="file"] {
+    display: none;
+}
